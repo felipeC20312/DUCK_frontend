@@ -7,7 +7,7 @@ import {
 } from '@mui/material';
 import { useState } from 'react';
 import React from 'react';
-import ImageSwitcher from './components/imageSwitcher';
+import ImageSwitcher from '../../components/imageSwitcher';
 
 export default function Project01() {
   const [modalState, setModalState] = useState(false);
