@@ -1,23 +1,12 @@
 import { quantum } from 'ldrs';
+import styles from './stylesheet.module.css';
 
 quantum.register();
 
 const Error = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: '1rem',
-      }}>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '.5rem',
-        }}>
+    <div className={styles.container}>
+      <div className={styles.content}>
         <h1>404</h1>
         <p>Page not Found...</p>
       </div>
