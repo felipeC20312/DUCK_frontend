@@ -1,23 +1,10 @@
 .container {
   display: flex;
   flex-direction: column;
-  min-width: 350px;
-  height: 100dvh;
+  width: 365px;
+  height: 100%;
   background-color: #363636;
   box-sizing: border-box;
-}
-
-.menuHeader {
-  display: flex;
-  box-sizing: border-box;
-  padding: 20px 0;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../../assets/imgs/dust.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-bottom: 2px solid #4e4e4e;
 }
 
 .menuContent {
