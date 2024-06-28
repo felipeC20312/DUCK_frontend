@@ -1,6 +1,40 @@
 .container {
   display: flex;
-  width: 100%;
-  height: 100%;
+  flex-direction: column;
+  min-width: 350px;
+  height: 100dvh;
   background-color: #363636;
+  box-sizing: border-box;
+}
+
+.menuHeader {
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/imgs/dust.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 2px solid #4e4e4e;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menuContent h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menuContent h2 {
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
 }
