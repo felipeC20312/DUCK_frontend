@@ -4,19 +4,17 @@ import styles from './stylesheet.module.css';
 const SideBar = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <img src='' alt='' />
-      </div>
-      <div>
+      <div className={styles.menuContent}>
         {menuItens.map((item) => {
           return (
             <div key={item.title}>
-              {item.title}
+              <h1>{item.title}</h1>
               <div>
                 {item.itens.map((innerItem) => {
-                  return <div key={innerItem.title}>{innerItem.title}</div>;
+                  return <h2 key={innerItem.title}>{innerItem.title}</h2>;
                 })}
               </div>
+              <br />
             </div>
           );
         })}

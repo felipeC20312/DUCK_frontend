@@ -1,6 +1,27 @@
 .container {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 365px;
   height: 100%;
   background-color: #363636;
+  box-sizing: border-box;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menuContent h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menuContent h2 {
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
 }
