@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import RoutesApp from './RoutesApp';
+import i18n from './i18';
 
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
       <RoutesApp />
